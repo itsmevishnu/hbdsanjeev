@@ -1,0 +1,99 @@
+body,html {
+    height: 100%;
+}
+.body-bg {
+    background-image:url('bgimge.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.maincard {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+}
+
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease
+}
+
+.thecard:hover {
+    transform: rotateY(180deg)
+}
+
+.thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hidden;
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #373738c2;
+    padding: 10px
+}
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: hidden;
+    background:rgba(241, 232, 232, 0.671);
+    color: #000;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    padding: 10px
+}
+
+.btn {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.user_name {
+    color: #eee;
+    font-size: 10px;
+    margin-top: 0px;
+}
+h4{
+    font-size:24px;
+    font-family: 'Tangerine', serif;
+}
+.about {
+    font-size: 12px;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px#383636d9;
+}
+
+.follow-button,
+.follow-button:active,
+.follow-button:visited,
+.follow-button:focus {
+    background-color: #8E24AA !important;
+    border-color: #8E24AA !important;
+    color: #fff !important;
+    box-shadow: none
+}
+
+.follow-button:hover {
+    background-color: #69157f !important;
+    border-color: #69157f !important;
+}
+.alert-dark {
+    background-color: rgba(0, 0, 0, 0.699);
+    color: rgba(255, 255, 255, 0.87);
+    width: 600px;
+    margin:auto;
+}
